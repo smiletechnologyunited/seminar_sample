@@ -1,0 +1,4 @@
+global proc stuRename() {
+	python("import apps.rename");
+	python("apps.rename.main()");
+}
